@@ -1,6 +1,6 @@
-// angular.module('notSetApp')
-//   .controller('notSetCtrl', ['$scope', '$timeout', notSetCtrl])
+angular.module('notSetApp')
+  .controller('notSetCtrl', ['$scope', notSetCtrl])
 
-//   function notSetCtrl($scope,$timeout){
-//     $scope.hi = "hello world"
-//   }
+  function notSetCtrl($scope){
+    $scope.hi = "hello world"
+  }
